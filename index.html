@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>OO-Cinema</title>
+		<!--
+		OO-Cinema
+
+		VR Cinema for Oculus Rift, using native VR support (Mozilla).
+
+    Author: Gilberto Avalos
+		https://github.com/Agnostic
+		-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+    <div id="playerwrapper"></div>
+
+    <!-- Ooyala Player -->
+    <script src="http://player.ooyala.com/v4/242f532f58ad4b2e9192f84fd4ff727d?debug=true&platform=html5&version=8aeba7099b1156d67a082ca46faa1ecc36a9d738"></script>
+    <script src="https://dl.dropboxusercontent.com/u/149437420/html5-skin/build/html5-skin.js?raw=1"></script>
+
+    <!-- three.js 3d library -->
+    <script src="js/lib/three.min.js"></script>
+
+    <!-- library for fast quaternion rotation -->
+    <script src="js/lib/gl-matrix.js"></script>
+
+    <!-- Scripts to get positional information from connected VR devices and applies the transformations to a three.js camera object. -->
+    <script src="js/vr/PhoneVR.js"></script>
+    <script src="js/vr/VRController.js"></script>
+
+    <!-- VREffect.js handles stereo camera setup and rendering. -->
+    <script src="js/vr/VREffect.js"></script>
+
+    <!-- App -->
+    <script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>

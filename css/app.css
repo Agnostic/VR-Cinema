@@ -1,0 +1,22 @@
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+video {
+  display: none;
+}
+
+#playerwrapper {
+  display: none;
+}
+
+.controls button {
+  padding: 5px 3px;
+  background: #fff;
+  border: none;
+}
