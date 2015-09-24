@@ -69,11 +69,7 @@ function initCinema() {
   video = document.querySelector('video.video');
   //video.volume = 0;
 
-  videoTexture = new THREE.Texture(video);
-  videoTexture.minFilter = THREE.LinearFilter;
-  videoTexture.magFilter = THREE.LinearFilter;
-
-  texture = new THREE.VideoTexture(video);
+  var texture = new THREE.VideoTexture(video);
   texture.magFilter = THREE.LinearFilter;
   texture.minFilter = THREE.LinearFilter;
   texture.format = THREE.RGBFormat;
