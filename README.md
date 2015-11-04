@@ -4,6 +4,9 @@ This is an experiment to use the native VR support from mozilla and the HTML5 vi
 
 ![](http://i.giphy.com/xTiTnDS3ljJ8V0mTuM.gif)
 
+Demo created by Gilberto Avalos:
+* http://github.com/Agnostic
+
 ### Tech
 
 Projects used:
@@ -13,7 +16,7 @@ Projects used:
 
 ### How to use it
 
-Download/clone repo, then:
+Download/clone repo, then run a simple http server:
 ```sh
 ~/vr-cinema$ php -S localhost:8080
 # Then open http://localhost:8080/
@@ -26,5 +29,4 @@ Move the tab/window to the oculus rift display, then go to fullscreen.
 Enjoy!
 
 ### TODO
-* Add in-game controls
-* Allow browser events for custom controls.
+* Add in-game UI/controls
